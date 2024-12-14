@@ -1,0 +1,21 @@
+# Nix build outputs
+result
+result-*
+
+# Nix store paths
+.store
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# System files
+.DS_Store
+.directory
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project

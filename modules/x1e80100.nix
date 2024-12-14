@@ -46,8 +46,8 @@
   hardware.deviceTree.enable = true;
 
   hardware.firmware = [
-    pkgs.x1e80100-lenovo-yoga-slim7x-firmware
-    pkgs.x1e80100-lenovo-yoga-slim7x-firmware-json
+    pkgs.x1e80100-asus-vivobook-s15-firmware
+    pkgs.x1e80100-asus-vivobook-s15-firmware-json
   ];
 
   boot.kernelPackages = pkgs.x1e80100-linux;
